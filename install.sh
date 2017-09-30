@@ -14,9 +14,9 @@ cd /home/pi
 echo "apt-get update files..."
 sudo apt-get update
 echo "remove nodejs nodejs-legacy files..."
-sudo apt-get remove nodejs nodejs-legacy -y
+sudo apt-get remove -y nodejs nodejs-legacy
 echo "install dependence files..."
-sudo apt-get install git make
+sudo apt-get install -y git make
 sudo apt-get install -y git-core libnss-mdns libavahi-compat-libdnssd-dev
 echo "downloads node v8.5 files..."
 
