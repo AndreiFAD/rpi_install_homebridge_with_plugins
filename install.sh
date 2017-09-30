@@ -4,8 +4,6 @@
 #sudo nano instl.sh
 #sudo sh instl.sh
 
-#https://nodejs.org/dist/v6.11.3/node-v6.11.3-linux-armv6l.tar.xz
-
 #RPI homebridge install with node 8.x with 2017-08-16-raspbian-stretch.img
 #!/bin/bash
 # By FAD homebridge install
