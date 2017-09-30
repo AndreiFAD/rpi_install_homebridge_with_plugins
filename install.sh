@@ -32,7 +32,7 @@ sudo npm install -g node-gyp
 sudo npm install -g n
 sudo n lts
 sudo apt-get install build-essential -y
-sudo npm install -g homebridge hap-nodejs node-gyp --unsafe-perm 
+sudo npm install -g --unsafe-perm homebridge hap-nodejs node-gyp
 echo ""
 echo "install packege for plugins"
 sudo apt-get install libtool git build-essential autoconf automake -y 
