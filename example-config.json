@@ -1,0 +1,40 @@
+
+{
+        "bridge": {
+                "name": "Homebridge",
+                "username": "AC:22:EF:D2:33:EE",
+                "port": 51826,
+                "pin": "031-45-154"
+        },
+        "description": "GPIO Bridge Test",
+        "accessories": [{
+                        "accessory": "GPIODevice",
+                        "type": "ContactSensor",
+                        "name": "Front Door",
+                        "inverted": "true",
+                        "pin": 4
+                },
+                {
+                        "accessory": "RaspberryPiTemperature",
+                        "name": "RaspberryPiTemperature"
+                },
+                {
+                        "accessory": "DhtSensor",
+                        "name": "Sensor",
+                        "sensorType": 11,
+                        "gpioPin": 4
+                },
+                {
+                        "accessory": "GPIODevice",
+                        "type": "MotionSensor",
+                        "name": "Hall Motion",
+                        "pin": 3
+                }
+        ],
+		"platforms": [{
+			"platform": "IkeaTradfri",
+			"name": "Tradfri",
+			"host": "ip",
+			"key": "psk"
+		}]
+}
