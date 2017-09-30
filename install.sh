@@ -59,6 +59,7 @@ sudo npm install -g homebridge-dht-sensor --unsafe-perm
 sudo npm install -g homebridge-tradfri-plugin
 echo -e 'PATH="/opt/node/lib/node_modules/homebridge/bin:$PATH"' >> ~/.bashrc
 . ~/.bashrc
+echo -e 'PATH="/opt/node/lib/node_modules/homebridge/bin:$PATH"' >> ~/.profile
 echo ""
 echo "node version:"
 node -v
