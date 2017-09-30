@@ -6,7 +6,7 @@
 
 #https://nodejs.org/dist/v6.11.3/node-v6.11.3-linux-armv6l.tar.xz
 
-#RPI ARMv8 homebridge install with node 8.x with 2017-08-16-raspbian-stretch.img
+#RPI homebridge install with node 8.x with 2017-08-16-raspbian-stretch.img
 #!/bin/bash
 # By FAD homebridge install
 
@@ -59,6 +59,10 @@ sudo npm install -g homebridge-raspberrypi-temperature
 sudo npm install -g homebridge-gpio-device --unsafe-perm
 sudo npm install -g homebridge-dht-sensor --unsafe-perm
 sudo npm install -g homebridge-tradfri-plugin
+
+echo -e 'PATH="/opt/node/lib/node_modules/homebridge/bin:$PATH"' >> ~/.bashrc
+. ~/.bashrc
+
 echo ""
 echo ""
 echo "iam ready..enjoy!! :) "
