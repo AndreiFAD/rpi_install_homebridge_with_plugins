@@ -17,6 +17,9 @@ root@RpiZero:/home/pi# sudo wget -0 - https://raw.githubusercontent.com/AndreiFA
 sudo reboot
 
 root@RpiZero:/home/pi# sudo reboot
+
 ..
+
 pi@RpiZero:~ $ sudo su
+
 root@RpiZero:/home/pi# homebridge
