@@ -70,3 +70,6 @@ echo "npm version:"
 npm -v
 echo ""
 echo "i'm ready.. enjoy! :) "
+
+
+
