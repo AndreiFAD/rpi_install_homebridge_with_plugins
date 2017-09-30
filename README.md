@@ -1,4 +1,4 @@
-# rpi_install_homebridge_with_plugins
+# rpi zero W install homebridge with plugins
 rpi install homebridge with plugins (node v8)
 
 plugins:
