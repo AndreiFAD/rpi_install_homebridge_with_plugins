@@ -3,7 +3,7 @@
 # RPI Zero W : homebridge install with node 8.x on 2017-08-16-raspbian-stretch.img
 # !/bin/bash
 # By FAD homebridge install
-# raspbian image: 2015-09-24-raspbian-jessie.img
+# raspbian image: 2017-08-16-raspbian-stretch.img
 # sudo wget -O -  https://raw.githubusercontent.com/AndreiFAD/rpi_install_homebridge_with_plugins/master/install.sh | bash
 # sudo su
 # sudo rm instl.sh
