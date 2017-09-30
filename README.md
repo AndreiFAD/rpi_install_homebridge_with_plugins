@@ -23,3 +23,6 @@ root@RpiZero:/home/pi# sudo reboot
 pi@RpiZero:~ $ sudo su
 
 root@RpiZero:/home/pi# homebridge
+
+root@RpiZeroFAD:/home/pi# sudo nano /root/.homebridge/config.json
+
