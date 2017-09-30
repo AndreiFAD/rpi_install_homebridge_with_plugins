@@ -11,11 +11,11 @@
 # sudo sh instl.sh
 
 cd /home/pi
-echo "apt-get update files..."
+echo "apt-get update..."
 sudo apt-get update
-echo "remove nodejs nodejs-legacy files..."
+echo "remove nodejs nodejs-legacy ..."
 sudo apt-get remove -y nodejs nodejs-legacy
-echo "install dependence files..."
+echo "install dependence files ..."
 sudo apt-get install -y git make
 sudo apt-get install -y git-core libnss-mdns libavahi-compat-libdnssd-dev
 echo "downloads node v8.5 files..."
