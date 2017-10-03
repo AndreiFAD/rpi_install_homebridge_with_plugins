@@ -14,8 +14,6 @@ pi@RpiZero:~ $ sudo su
 
 root@RpiZero:/home/pi# sudo wget -0 - https://raw.githubusercontent.com/AndreiFAD/rpi_install_homebridge_with_plugins/master/install.sh | bash
 
-sudo reboot
-
 root@RpiZero:/home/pi# sudo reboot
 
 ..
