@@ -63,7 +63,7 @@ echo -e 'PATH="/opt/node/lib/node_modules/homebridge/bin:$PATH"' >> ~/.bashrc
 . ~/.bashrc
 echo -e 'PATH="/opt/node/lib/node_modules/homebridge/bin:$PATH"' >> ~/.profilesudo
 # kernel revert to 4.4.50!
-#sudo rpi-update 52241088c1da59a359110d39c1875cda56496764  
+sudo rpi-update 52241088c1da59a359110d39c1875cda56496764  
 echo ""
 echo "node version:"
 node -v
