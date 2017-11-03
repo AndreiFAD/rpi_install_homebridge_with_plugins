@@ -1,6 +1,9 @@
 # rpi zero W install homebridge with plugins
 rpi install homebridge with plugins (node v8)
 
+kernel revert to 4.4.50!<br>
+sudo rpi-update 52241088c1da59a359110d39c1875cda56496764 
+
 plugins:
 
     homebridge-raspberrypi-temperature
